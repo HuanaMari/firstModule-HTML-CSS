@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald',sans serif;
+}
+#contact{
+    margin: 0 auto;
+    width: 80%;
+}
+.box-50{
+    width: 50%;
+    margin: 40px auto;
+    padding-right: 60px;
+    float:left;
+}
+.main-title{
+    margin: 45px 0 0;
+}
+.description{
+    margin:10px auto;
+    margin-bottom: 40px
+}
+.company-details{
+    padding-left: 20px;
+}
+.contact-form-wrapper{
+    margin-right: 100px; 
+}
+.form-title{
+    border-radius: 10px;
+    background-color: rgb(40, 238, 122);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn{
+    background-image: linear-gradient(to right, rgb(11, 91, 145) , rgb(12, 182, 111));
+    width: 60%;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-left:60px; 
+}
+fieldset{
+    border: none;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:rgb(137, 238, 238);
+    padding: 5px;
+}

@@ -1,0 +1,395 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Lato';
+    color: rgb(236, 230, 230);
+}
+body{
+    background-color: black;
+}
+.dark-blue{
+    background-color:  #074c69;
+    text-align: center;
+}
+.dark-blue p{
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px;
+    width: 80%;
+}
+.light-blue{
+    background-color: #09729e;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.light-blue-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    
+}
+.logo{
+    margin-left: 0;
+    flex-grow: 1;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: -20px;
+    border: 10px solid #09729e;
+    border-radius: 100%;
+    background-color: #09729e;
+}
+.toggle label,#bars{
+    display: none;
+}
+.light-blue-content ul{
+    margin: 0%;
+    padding: 0;
+    list-style-type: none;
+}
+.light-blue-content ul li{
+    float:left;
+    font-size: 14px;
+    width: 150px;
+    line-height: 60px;
+}
+.light-blue-content ul li a{
+    text-decoration: none;
+}
+.fh a:hover{
+    color: #02c4a3;
+}
+#gc{
+    background-color: #02c4a3;
+    padding: 10px 5px;
+    margin: 0 ;
+}
+#gc:hover{
+    border:2px solid white;
+}
+.fh{
+    position: relative;
+}
+
+.light-blue-content ul .fh ul{
+    position: absolute;
+    top: 50px;
+    right:10px;
+    width: 120%;
+    background-color: white;
+    border-bottom: 4px solid #074c69;
+    text-align: center;
+    margin: 0%;
+    padding: 0;
+    list-style-type: none;
+    display: none;
+}
+.light-blue-content ul .fh:hover ul {
+    display: block;
+    color: #02c4a3;
+
+}
+
+.gallery{
+    position: fixed;
+    top: 300px;
+    right: 0;
+    
+}
+.gallery i{
+    background-color: #02c4a3;
+    padding: 5px;
+    border-radius: 3px;
+    color: forestgreen;
+    
+}
+.gallery:hover .hd{
+    display:block;
+
+}
+.hd{
+    display: none;
+}
+.img-tech{
+    display: flex;
+    border: 3px solid #02c4a3;
+
+}
+.img-tech img{
+    height: 100px;
+    border: 3px solid #02c4a3;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(images/main-back.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+}
+.cover{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.naslov{
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+.naslov h1{
+    text-transform: uppercase;
+}
+.naslov span{
+    font-size: 20px;
+}
+.section{
+    margin-top: -80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box50{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    flex-basis: 50%;
+}
+.more-tech{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page,.pages{
+    background-color: #074c69;
+    margin: 10px; 
+    height: 180px;
+}
+.pages{
+    flex-basis: 50%;
+}
+.page p, .pages p{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.page img, .pages img{
+    width: 60px;
+    height: 60px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.page:hover,.pages:hover{
+    background-image: linear-gradient(to right, #074c69 , #02c4a3);
+}
+.forma{
+    background-color: rgb(219, 217, 217);
+    width: 30%;
+    margin:0 auto;
+}
+.contact-form {
+    background-color: #074c69;
+    height: 50px;
+    margin: 0 -10px;
+    text-align: center;
+}
+.contact-form h2{
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.btn{
+    padding: 5px 0;
+    background-image: linear-gradient(to right, #074c69 , #02c4a3);
+}
+form{
+    display: block;
+    margin:10px 20px 0;
+
+}
+form input{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 0;
+    padding: 10px auto;
+    border-radius: 3px;
+}
+textarea{
+    width: 100%;
+    margin-top: 10px;
+}
+.btn{
+    width: 100%;
+    margin-top:20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #074c69 ;
+    border:2px solid #074c69 ;
+}
+.a1th5{
+    display: flex;
+    margin:50px auto;
+    width: 60%;
+
+}
+.a1th5 h1{
+    font-size: 15em;
+    margin-right: 30px;
+}
+.box{
+    padding-top: 100px;
+    margin: o auto;
+}
+.last{
+    display: flex;
+}
+.letters{
+    display: flex;
+    margin: 0;
+    text-align: center;
+}
+.dark{
+    background-color: #074c69;
+    height: 50px;
+    width: 100px;
+    padding-top: 20px;
+}
+.light{
+    background-color: #09729e;
+    height: 50px;
+    width: 100px;
+    padding-top: 15px;
+}  
+.border{
+    border: 1px dashed #074c69;
+}
+footer{
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+   
+    .container{
+        width: 100vw;
+    }
+    .dark-blue{
+        display: none;
+    }
+
+    .gallery{
+        display: none;
+    }
+
+    .toggle{
+        position: relative;
+    }
+
+   
+    .toggle label{
+        display:inline-block;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .lista{
+       display: none;
+    
+    }
+    
+    #bars:checked + .lista{
+       display: flex;
+       flex-flow: column wrap;
+       align-items: center;
+       justify-content: center;
+       margin-top: 40px;
+    }
+    .lista li{
+        margin: 0 ;
+        flex-grow: 1;
+    }
+
+    .main{
+        height: 500px;
+        background-size: cover;
+    }
+
+    .naslov {
+       position: absolute;
+       top: 200px;
+       left: 100px;
+       text-align: center;
+    }
+    .naslov h1{
+        font-size: 8vw;
+    }
+
+    .naslov span{
+        font-size: 5vw;
+    }
+
+    .section{
+        margin-top: -80px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .page, .pages{
+        width:80vw;
+    }
+
+    .more-tech{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .forma{
+        width: 80vw;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .a1th5{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .a1th5 h1{
+        transform: rotate(-90deg);
+        
+    }
+    .box{
+        padding-top: 0;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content:flex-start;
+        align-items: flex-start;
+    }
+    .last{
+        margin: 0;
+
+ 
+
+}
